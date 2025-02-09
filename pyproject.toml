@@ -8,11 +8,15 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "mypy (>=1.15.0,<2.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "lesson_10"}]
 
+
+[tool.poetry.group.lint.dependencies]
+black = "^25.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

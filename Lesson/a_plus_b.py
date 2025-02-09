@@ -1,5 +1,5 @@
 a = 2
-b = 3
+b = 4
 
 sec = a + b
 print(sec)
